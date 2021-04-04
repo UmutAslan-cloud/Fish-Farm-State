@@ -1,0 +1,11 @@
+.main-content {
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px;
+    width: 20vw;
+}
+
+.father-component {
+    display: flex;
+    flex-wrap: wrap;
+}

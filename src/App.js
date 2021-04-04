@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+/**
+ * Bu odevde bizden verilen data yapisini state kullanarak ekrana yansitmamiz isteniyor
+ * oncelikle bir state yapisi kurarak bu yapiya listeyi gonderiyoruz
+ * daha sonra render kisminda bir map yapisi kullanarak bu listenin tamamini ve bilgilerini ekrana yazdiriyoruz
+ * olusturdugumuz bu componenti import ederek app.js te calistiriyoruz
+ */
+
+
+import FishWiev from "./components/user"
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+<FishWiev/>
+    </main>
   );
 }
 
